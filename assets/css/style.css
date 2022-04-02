@@ -12,8 +12,7 @@ header{
     justify-content: space-between;
     background-color: #b8afa7;
     border-bottom: 5px solid black;
-    width: 100%;
-   
+    width: 100%; 
 }
 header h1{
     
@@ -56,13 +55,29 @@ body{
     display: flex;
     width: 100%;
     background-color: rgb(193, 220, 220);
+    border-bottom: 5px solid black;
 }
 .about-me h2{
     text-align: center ;
+    padding-top: 5%;
 }
-
+.about-me img{
+    height: 40%;
+    width: 12%;
+    border-radius: 50%;
+}
+.about-me p{
+    padding: 1%;
+    margin: 1%;
+    align-items: center;
+}
+.img-wrap{
+    display: flex;
+    align-items: center;
+    padding: 0 5% 5% 5%;
+}
 /* my work start */
-.my-work h2{
+.my-work h2, h3{
     text-align: center;
     margin-top: 3%;
 }
@@ -77,7 +92,7 @@ body{
 .my-work img{
     height: 50%;
     width: 80%;
-    margin: 5% 10%;
+    margin: 2% 10%;
     border-radius: 4%;
 }
 /*my work end*/
