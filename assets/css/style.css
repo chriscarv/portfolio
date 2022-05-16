@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
 }
 /* variables */
 :root{
@@ -63,7 +64,7 @@ body{
 /* about me start*/
 .about-me{
     display: flex;
-    width: 100%;
+    width: auto;
     background-color: var(--body-color);
     border-bottom: 5px solid black;
     padding: 10vh 8vh;
@@ -128,7 +129,7 @@ body{
 
 /* footer start */
 footer{
-    width: 100%;
+    width: auto;
     background-color: var(--foot-color);
     padding: 2% 3%;
 }
