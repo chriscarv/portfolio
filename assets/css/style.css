@@ -118,12 +118,21 @@ body{
 .my-work img:hover{
     opacity: 0.5;
 }
+
 .work-row{
     display: flex;
+}
+.dcl-size img{
+    height: 50%;
+    width: 100%;
+    padding-top: 1%;
+    display: flex;
+    margin: auto;
 }
 .card{
     padding-top: 8%;
 }
+
 /*my work end*/
 
 
